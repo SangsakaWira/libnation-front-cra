@@ -1,4 +1,4 @@
-const AddBook = (props) => {
+const EditBook = (props) => {
 
     const onSubmit = (events)=>{
         const {title,description,price} = events.target
@@ -34,4 +34,4 @@ const AddBook = (props) => {
     )
 }
 
-export default AddBook
+export default EditBook

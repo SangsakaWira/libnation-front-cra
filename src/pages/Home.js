@@ -4,7 +4,7 @@ import { SearchBar } from "../components/SearchBar"
 const Home = () => {
     return (
         <>
-            <SearchBar></SearchBar>
+            <SearchBar title="Search All Books" ></SearchBar>
             <div className="book">
                 <BookCard data={{
                     img: require("../assets/images/image-2.png"),

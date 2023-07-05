@@ -1,4 +1,4 @@
-function Container({ children }) {
+function Layout({ children }) {
     return (
         <section>
             <div className="container">
@@ -8,4 +8,4 @@ function Container({ children }) {
     )
 }
 
-export default Container
+export default Layout

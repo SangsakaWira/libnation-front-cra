@@ -1,5 +1,5 @@
 import NavBar from "./components/NavBar"
-import Container from "./components/Container";
+import Layout from "./components/Layout";
 import {
     BrowserRouter as Router,
     Route,
@@ -18,14 +18,14 @@ function App() {
         <Router>
             <div className="App">
                 <NavBar />
-                <Container>
+                <Layout>
                     <Routes>
                         <Route path="/" Component={Home} />
                         <Route path="/checkout" Component={Checkout} />
                         <Route path="/my-books" Component={MyBooks} />
                         <Route path="/add-book" Component={AddBook} />
                     </Routes>
-                </Container>
+                </Layout>
             </div>
         </Router>
     )

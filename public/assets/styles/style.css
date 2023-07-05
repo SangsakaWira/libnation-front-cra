@@ -210,7 +210,9 @@ body {
 }
 
 .heading-2 {
-  font-size: 1.5rem;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
   font-weight: 700;
 }
 
@@ -235,7 +237,7 @@ section {
 }
 .input-field label {
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .input-field input {
   border: 1px solid #000000;
@@ -251,7 +253,7 @@ section {
   transition: 0.3s ease;
   font-weight: 700;
   color: #fff;
-  font-size: 1.5em;
+  font-size: 1.2em;
   padding: 20px 0;
   -webkit-transition: 0.3s ease;
   -moz-transition: 0.3s ease;
@@ -357,7 +359,7 @@ input:focus {
   }
 }
 .nav-item {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   transition: 0.3s ease;
   -webkit-transition: 0.3s ease;
   -moz-transition: 0.3s ease;
@@ -444,8 +446,8 @@ input:focus {
   margin-top: 20px;
 }
 .search-wrap input {
-  padding: 17px 23px;
-  font-size: 1.5rem;
+  padding: 5px 20px;
+  font-size: 1.2rem;
   font-weight: 700;
   width: 80%;
   border: 1px solid transparent;
@@ -456,11 +458,11 @@ input:focus {
   -o-border-radius: 15px 0 0 15px;
 }
 .search-wrap input::-moz-placeholder {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 700;
 }
 .search-wrap input::placeholder {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 700;
 }
 .search-wrap button {
@@ -486,7 +488,7 @@ input:focus {
   padding: 12px 14px;
 }
 .book-card-image {
-  padding: 25px 45px 0 45px;
+  padding: 5px 5px 0 5px;
 }
 .book-card-detail {
   padding: 5px;
